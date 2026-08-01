@@ -1,7 +1,30 @@
 aid: smallhold
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smallhold.png
 name: Smallhold
-description: Smallhold is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Smallhold is a specialty organic mushroom company founded in 2017 by Andrew
+  Carter and Adam DeMartino and headquartered in Brooklyn, New York. A Certified
+  B Corporation, Smallhold grows gourmet mushroom varieties — including blue
+  oyster, lion's mane, maitake, royal trumpet, and shiitake — using modular,
+  automated "minifarm" growing environments designed for distributed, locally
+  grown supply to grocery retailers and restaurants. Its public presence is a
+  direct-to-consumer and retail-partner storefront built on Shopify; the company
+  publishes no first-party developer API, developer portal, or API documentation.
+  This profile was added to the API Evangelist network as a Techstars portfolio
+  lead and run through the enrichment pipeline, which confirmed no bespoke API
+  surface — only Shopify's platform OAuth discovery documents are exposed on the
+  shop domain.
 url: https://raw.githubusercontent.com/api-evangelist/smallhold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agriculture
+- Food and Beverage
+- Mushrooms
+- Sustainability
+- E-commerce
+- Consumer Products
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://smallhold.com/
+- type: Blog
+  url: https://smallhold.com/blogs/blog
+- type: PrivacyPolicy
+  url: https://smallhold.com/pages/privacy-policy
+- type: WellKnown
+  url: well-known/smallhold-well-known.yml
+- type: DomainSecurity
+  url: security/smallhold-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

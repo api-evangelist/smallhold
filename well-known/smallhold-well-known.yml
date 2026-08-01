@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of https://smallhold.com/.well-known/*
+host: https://smallhold.com
+note: >-
+  smallhold.com is a Shopify storefront. The /.well-known/openid-configuration
+  and /.well-known/oauth-authorization-server documents served on the host are
+  Shopify's Customer Account API OAuth authorization server (shop id 37250171013),
+  which advertises customer-account-api:full and customer-account-mcp-api:full
+  scopes. These are Shopify platform surfaces exposed on the shop domain, not a
+  first-party Smallhold API. No first-party API, security.txt, api-catalog, or
+  ai-plugin.json is published.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 200
+  file: smallhold-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: smallhold-oauth-authorization-server.json
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
