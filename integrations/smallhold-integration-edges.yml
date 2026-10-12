@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/smallhold/integrations
+- https://n8n.io/integrations/smallhold/
+- https://composio.dev/toolkits/smallhold
+- https://monid.ai/tools/smallhold
+checked:
+- https://composio.dev/toolkits/smallhold
+- https://monid.ai/tools/smallhold
+- https://n8n.io/integrations/smallhold/
+- https://zapier.com/apps/smallhold/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
