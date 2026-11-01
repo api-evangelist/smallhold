@@ -64,6 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Smallhold is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Smallhold is a specialty organic mushroom company founded in 2017 by Andrew Carter and Adam DeMartino and headquartered in Brooklyn, New York. A Certified B Corporation, Smallhold grows gourmet mushroom varieties — including blue oyster, lion's mane, maitake, royal trumpet, and shiitake — using modular, automated "minifarm" growing environments designed for distributed, locally grown supply to grocery retailers and restaurants. Its public presence is a direct-to-consumer and retail-partner storefront built on Shopify; the company publishes no first-party developer API, developer portal, or API documentation. This profile was added to the API Evangelist network as a Techstars portfolio lead and run through the enrichment pipeline, which confirmed no bespoke API surface — only Shopify's platform OAuth discovery documents are exposed on the shop domain.
 
-Backed by: techstars — https://smallhold.com/
+**Areas:** Company · Agriculture · Food and Beverage · Mushrooms · Sustainability · E-Commerce · Consumer Products
+
+## Smallhold on APIs.io
+
+Everything profiled for Smallhold is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/smallhold/](https://apis.io/providers/smallhold/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Smallhold Domain Security](https://apis.io/security/smallhold/smallhold-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://smallhold.com/)
+- [Blog](https://smallhold.com/blogs/blog)
+- [Privacy policy](https://smallhold.com/pages/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 7.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/smallhold/](https://apis.io/providers/smallhold/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Smallhold: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/smallhold/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
